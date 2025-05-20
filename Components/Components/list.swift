@@ -25,25 +25,25 @@ struct tourney: View {
 			NavigationStack {
 				 VStack {
 						Spacer()
-							 //						HStack {
-							 //							 Text("Events")
-							 //									.font(.system(.largeTitle, weight: .bold))
-							 //									.frame(maxWidth: .infinity, alignment: .leading)
-							 //									.clipped()
-							 //							 Text("Hello, Marisa!")
-							 //									.font(.system(.body, weight: .medium))
-							 //									.foregroundStyle(.secondary)
-							 //						}
-							 //						.padding(.horizontal)
-							 //						.padding(.top, 20)
+							 						HStack {
+							 							 Text("Events")
+							 									.font(.system(.largeTitle, weight: .bold))
+							 									.frame(maxWidth: .infinity, alignment: .leading)
+							 									.clipped()
+							 							 Text("Hello, Marisa!")
+							 									.font(.system(.body, weight: .medium))
+							 									.foregroundStyle(.secondary)
+							 						}
+							 						.padding(.horizontal)
+							 						.padding(.top, 20)
 
-						Text("Upcoming:".uppercased())
-							 .frame(maxWidth: .infinity, alignment: .leading)
-							 .font(.system(.subheadline, weight: .medium).width(.expanded))
-							 .foregroundStyle(.purple)
-							 .font(.system(.title, weight: .bold))
-							 .padding(.horizontal)
-							 .padding(.top, 1)
+//						Text("Upcoming:".uppercased())
+//							 .frame(maxWidth: .infinity, alignment: .leading)
+//							 .font(.system(.subheadline, weight: .medium).width(.expanded))
+//							 .foregroundStyle(.purple)
+//							 .font(.system(.title, weight: .bold))
+//							 .padding(.horizontal)
+//							 .padding(.top, 1)
 
 						ScrollView {
 							 VStack(spacing: 10) {
@@ -84,8 +84,8 @@ struct tourney: View {
 							 }
 						}
 				 }
-				 .searchable(text: $searchText, prompt: "Search Tournaments")
-				 .navigationTitle("Events")
+//				 .searchable(text: $searchText, prompt: "Search Tournaments")
+//				 .navigationTitle("Events")
 			}
 	 }
 }
